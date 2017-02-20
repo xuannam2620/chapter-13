@@ -5,3 +5,5 @@ users:
   posts_per_page: 5
 mailer:
   host: "localhost:3000"
+home:
+  feeds_per_page: 5
