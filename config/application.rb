@@ -8,7 +8,5 @@ Bundler.require(*Rails.groups)
 
 module SampleApp2
   class Application < Rails::Application
-    config.middleware.use SimplesIdeias::I18n::Middleware
-    config.assets.initialize_on_precompile = true
   end
 end
